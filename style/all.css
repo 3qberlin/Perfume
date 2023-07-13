@@ -1126,37 +1126,31 @@ button {
 @media (max-width: 576px) {
   button {
     width: 100px;
-    margin-top: 19px;
   }
 }
 @media (max-width: 1200px) {
   button {
     width: 100px;
-    margin-top: 19px;
   }
 }
 @media (max-width: 992px) {
   button {
     width: 100px;
-    margin-top: 19px;
   }
 }
 @media (max-width: 768px) {
   button {
     width: 100px;
-    margin-top: 19px;
   }
 }
 @media (max-width: 576px) {
   button {
     width: 100px;
-    margin-top: 19px;
   }
 }
 @media (max-width: 375px) {
   button {
     width: 100px;
-    margin-top: 19px;
   }
 }
 
