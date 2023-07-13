@@ -809,9 +809,7 @@ button {
 @media (max-width: 576px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }
@@ -819,9 +817,7 @@ button {
 @media (max-width: 1200px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }
@@ -829,9 +825,7 @@ button {
 @media (max-width: 992px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }
@@ -839,9 +833,7 @@ button {
 @media (max-width: 768px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }
@@ -849,9 +841,7 @@ button {
 @media (max-width: 576px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }
@@ -859,9 +849,7 @@ button {
 @media (max-width: 375px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }

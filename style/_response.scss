@@ -53,17 +53,12 @@
     left: 40%;
     width: 56%;
   }
-  // @include rwd($screen-lg) {
-  //   left: 40%;
-  //   width: 40%;
-  // }
   @include rwd($screen-md) {
     left: 0%;
     margin:0 auto;
     width: 80%;
   }
   @include rwd($screen-sm) {
-    // margin: 0 auto;
     width: 90%;
   }
   @include rwd($screen-ss) {
@@ -77,21 +72,11 @@
     line-height: $size * 3;
   }
 }
-// .introduce p {
-//   @include rwd($screen-lg) {
-//     // width: 100%;
-//   }
-//   @include rwd($screen-ss) {
-//     font-size: $size * 1.25;
-//     line-height: $size * 1.875;
-//   }
-// }
+
 .introduce a {
   @include rwd($screen-sm) {
     margin: 0 auto;
-    padding: 13px 80px;
     margin-top: 13px;
-    padding: 14px 90px;
     line-height: 34px;
     font-size: 28px;
   }
@@ -145,12 +130,6 @@
   @include rwd($screen-md){
     // padding:30% 0px;
     justify-content: center;
-  }
-}
-
-.subscribe button{
-  @include rwd($screen-ss){
-    // margin-top:1px;
   }
 }
 
