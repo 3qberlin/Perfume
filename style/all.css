@@ -94,6 +94,12 @@ footer {
   margin: 0 auto;
 }
 
+.footer_container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -417,7 +423,20 @@ footer {
 }
 
 input {
-  width: 350px;
+  width: 220px;
+  border-radius: 5px 0px 0px 5px;
+  border: 2px solid #916000;
+}
+
+button {
+  width: 130px;
+  height: 66px;
+  background-color: #916000;
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid #916019;
+  border-radius: 0px 5px 5px 0px;
+  color: #FFFFFF;
 }
 
 .nav-bottom {
@@ -1010,163 +1029,128 @@ input {
 }
 
 .subscribe {
-  margin-top: 8%;
-  margin-left: 20%;
+  padding: 13% 0px;
 }
 @media (max-width: 1550px) {
   .subscribe {
-    margin-top: 12%;
+    padding: 20% 0px;
   }
 }
 @media (max-width: 1200px) {
   .subscribe {
-    margin-top: 12%;
+    padding: 20% 0px;
   }
 }
 @media (max-width: 992px) {
   .subscribe {
-    margin-top: 12%;
+    padding: 20% 0px;
   }
 }
 @media (max-width: 768px) {
   .subscribe {
-    margin-top: 12%;
+    padding: 20% 0px;
   }
 }
 @media (max-width: 576px) {
   .subscribe {
-    margin-top: 12%;
+    padding: 20% 0px;
   }
 }
 @media (max-width: 375px) {
   .subscribe {
-    margin-top: 12%;
-  }
-}
-@media (max-width: 1200px) {
-  .subscribe {
-    margin-top: 18%;
-  }
-}
-@media (max-width: 1200px) {
-  .subscribe {
-    margin-top: 18%;
-  }
-}
-@media (max-width: 992px) {
-  .subscribe {
-    margin-top: 18%;
+    padding: 20% 0px;
   }
 }
 @media (max-width: 768px) {
   .subscribe {
-    margin-top: 18%;
+    padding: 30% 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .subscribe {
+    padding: 30% 0px;
+  }
+}
+@media (max-width: 992px) {
+  .subscribe {
+    padding: 30% 0px;
+  }
+}
+@media (max-width: 768px) {
+  .subscribe {
+    padding: 30% 0px;
   }
 }
 @media (max-width: 576px) {
   .subscribe {
-    margin-top: 18%;
+    padding: 30% 0px;
   }
 }
 @media (max-width: 375px) {
   .subscribe {
-    margin-top: 18%;
+    padding: 30% 0px;
   }
 }
-@media (max-width: 992px) {
-  .subscribe {
-    margin-top: 12%;
+
+@media (max-width: 576px) {
+  input {
+    width: 200px;
   }
 }
 @media (max-width: 1200px) {
-  .subscribe {
-    margin-top: 12%;
+  input {
+    width: 200px;
   }
 }
 @media (max-width: 992px) {
-  .subscribe {
-    margin-top: 12%;
+  input {
+    width: 200px;
   }
 }
 @media (max-width: 768px) {
-  .subscribe {
-    margin-top: 12%;
+  input {
+    width: 200px;
   }
 }
 @media (max-width: 576px) {
-  .subscribe {
-    margin-top: 12%;
+  input {
+    width: 200px;
   }
 }
 @media (max-width: 375px) {
-  .subscribe {
-    margin-top: 12%;
+  input {
+    width: 200px;
   }
 }
-@media (max-width: 768px) {
-  .subscribe {
-    margin-top: 8%;
+
+@media (max-width: 576px) {
+  button {
+    width: 100px;
   }
 }
 @media (max-width: 1200px) {
-  .subscribe {
-    margin-top: 8%;
+  button {
+    width: 100px;
   }
 }
 @media (max-width: 992px) {
-  .subscribe {
-    margin-top: 8%;
+  button {
+    width: 100px;
   }
 }
 @media (max-width: 768px) {
-  .subscribe {
-    margin-top: 8%;
+  button {
+    width: 100px;
   }
 }
 @media (max-width: 576px) {
-  .subscribe {
-    margin-top: 8%;
+  button {
+    width: 100px;
   }
 }
 @media (max-width: 375px) {
-  .subscribe {
-    margin-top: 8%;
-  }
-}
-@media (max-width: 576px) {
-  .subscribe {
-    margin-top: 30%;
-    margin-left: 2%;
-  }
-}
-@media (max-width: 1200px) {
-  .subscribe {
-    margin-top: 30%;
-    margin-left: 2%;
-  }
-}
-@media (max-width: 992px) {
-  .subscribe {
-    margin-top: 30%;
-    margin-left: 2%;
-  }
-}
-@media (max-width: 768px) {
-  .subscribe {
-    margin-top: 30%;
-    margin-left: 2%;
-  }
-}
-@media (max-width: 576px) {
-  .subscribe {
-    margin-top: 30%;
-    margin-left: 2%;
-  }
-}
-@media (max-width: 375px) {
-  .subscribe {
-    margin-top: 30%;
-    margin-left: 2%;
+  button {
+    width: 100px;
   }
 }
 

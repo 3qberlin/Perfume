@@ -317,7 +317,20 @@
 }
 
 input{
-  width:350px;
+  width:220px;
+  border-radius: 5px 0px 0px 5px;
+  border:2px solid #916000;
+}
+
+button{
+  width:130px;
+  height:66px;
+  background-color: #916000;
+  display:inline-block;
+  margin-top: 20px;
+  border:2px solid $color-brown;
+  border-radius: 0px 5px 5px 0px;
+  color:$color-white;
 }
 
 .nav-bottom{

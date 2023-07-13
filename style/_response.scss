@@ -135,26 +135,28 @@
   }
 }
 
-.subscribe {
-  margin-top: 8%;
-  margin-left: 20%;
-  @include rwd($screen-xxl) {
-    margin-top: 12%;
+.subscribe{
+  padding:13% 0px;
+  @include rwd($screen-xxl){
+    padding:20% 0px;
   }
-  @include rwd($screen-xl) {
-    margin-top: 18%;
-  }
-  @include rwd($screen-lg) {
-    margin-top: 12%;
-  }
-  @include rwd($screen-md) {
-    margin-top: 8%;
-  }
-  @include rwd($screen-sm) {
-    margin-top: 30%;
-    margin-left: 2%;
+  @include rwd($screen-md){
+    padding:30% 0px;
   }
 }
+
+input{
+  @include rwd($screen-sm){
+    width:200px;
+  }
+}
+
+button{
+  @include rwd($screen-sm){
+    width:100px;
+  }
+}
+
 
 .product li {
   @include rwd($screen-lg) {
