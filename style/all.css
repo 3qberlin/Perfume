@@ -1032,32 +1032,38 @@ input {
 }
 @media (max-width: 1550px) {
   .product {
-    margin-top: 820px;
+    margin-top: 900px;
+    border: 1px solid red;
   }
 }
 @media (max-width: 1200px) {
   .product {
-    margin-top: 820px;
+    margin-top: 900px;
+    border: 1px solid red;
   }
 }
 @media (max-width: 992px) {
   .product {
-    margin-top: 820px;
+    margin-top: 900px;
+    border: 1px solid red;
   }
 }
 @media (max-width: 768px) {
   .product {
-    margin-top: 820px;
+    margin-top: 900px;
+    border: 1px solid red;
   }
 }
 @media (max-width: 576px) {
   .product {
-    margin-top: 820px;
+    margin-top: 900px;
+    border: 1px solid red;
   }
 }
 @media (max-width: 375px) {
   .product {
-    margin-top: 820px;
+    margin-top: 900px;
+    border: 1px solid red;
   }
 }
 @media (max-width: 1200px) {
