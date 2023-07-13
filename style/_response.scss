@@ -139,25 +139,26 @@
   padding:13% 0px;
   @include rwd($screen-xxl){
     padding:20% 0px;
+    margin:0 auto;
   }
   @include rwd($screen-md){
     padding:30% 0px;
+    justify-content: center;
+  }
+}
+
+.subscribe h3{
+  @include rwd($screen-md){
+    // padding:30% 0px;
+    justify-content: center;
   }
 }
 
 .subscribe button{
   @include rwd($screen-ss){
-    margin-top:1px;
+    // margin-top:1px;
   }
 }
-
-input{
-  @include rwd($screen-sm){
-    width:200px;
-  }
-}
-
-
 
 .product li {
   @include rwd($screen-lg) {
