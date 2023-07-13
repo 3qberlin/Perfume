@@ -154,7 +154,8 @@ input{
 button{
   @include rwd($screen-md){
     width:100px;
-    margin-top: 21px;
+    height:auto;
+    margin-top: 20px;
   }
 }
 
