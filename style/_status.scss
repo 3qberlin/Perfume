@@ -1,0 +1,76 @@
+// active
+.active- {
+  &page {
+    border-bottom: 1px solid $color-lightBrown;
+    color: $color-lightBrown;
+  }
+}
+
+// hover
+.hover- {
+  &page:hover {
+    border-bottom: 1px solid $color-lightBrown;
+    color: $color-lightBrown;
+  }
+  &nav:hover {
+    color: $color-black;
+  }
+  &button- {
+    &white:hover {
+      border: $color-white 2px solid;
+      color:$color-white;
+    }
+    &brown:hover {
+      border: $color-brown 1px solid;
+      background-color: $color-brown;
+    }
+    &product:hover{
+      border: $color-brown 2px solid;
+      background-color: $color-brown;
+      color:$color-white
+    }
+  }
+}
+
+// decoration
+.decoration-none {
+  text-decoration: none;
+}
+
+// menu-mb
+.number::after{
+  content:'3';
+  position:absolute;
+  width:14px;
+  height:14px;
+  border-radius: 50%;
+  background-color: $color-brown;
+  top:-4px;
+  left:12px;
+  color:$color-white;
+  font-size: 4px;
+  text-align:center;
+}
+
+.price span::after{
+  content:'NT$1580';
+  color:$color-gray;
+  text-decoration:line-through;
+  position:absolute;
+  left:76px;
+}
+
+.email::after{
+  content:'Subscribe';
+  position: absolute;
+  width: 130px;
+  height:64px;
+  background-color: $color-brown;
+  border-radius: 2px;
+  top:21px;
+  left:228px;
+  color:$color-white;
+  text-align:center;
+  line-height: 62px;
+  font-size:16px;
+}

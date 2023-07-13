@@ -1,0 +1,276 @@
+// screen
+// $screen-xxl:1550px;
+// $screen-xl:1200px;
+// $screen-lg:992px;
+// $screen-md:768px;
+// $screen-sm:576px;
+// $screen-ss:375px;
+
+@mixin rwd($screen-xxl) {
+  @media (max-width: $screen-xxl) {
+    @content;
+  }
+  @media (max-width: $screen-xl) {
+    @content;
+  }
+  @media (max-width: $screen-lg) {
+    @content;
+  }
+  @media (max-width: $screen-md) {
+    @content;
+  }
+  @media (max-width: $screen-sm) {
+    @content;
+  }
+  @media (max-width: $screen-ss) {
+    @content;
+  }
+}
+
+.menu-mb {
+  display: none;
+  @include rwd($screen-lg) {
+    display: block;
+    display: flex;
+  }
+}
+
+.menu {
+  display: block;
+  @include rwd($screen-lg) {
+    display: none;
+  }
+}
+.introduce {
+  left: 60%;
+  top: 25vh;
+  width: 22%;
+  @include rwd($screen-xxl) {
+    left: auto;
+    top: 0vh;
+    margin: 20% 20%;
+    padding: 0% 20%;
+    width: auto;
+  }
+  @include rwd($screen-xl) {
+    margin: 12% 20%;
+    padding: 0% 20%;
+  }
+  @include rwd($screen-lg) {
+    padding: 0% 10% 0% 0%;
+  }
+  @include rwd($screen-md) {
+    padding: 0% 3%;
+    margin: 10% 9%;
+  }
+  @include rwd($screen-sm) {
+    padding: 0% 10%;
+    margin: 15% 8%;
+  }
+  @include rwd($screen-ss) {
+    padding: 0% 0%;
+    margin: 32vh 15px;
+  }
+}
+.introduce h2 {
+  @include rwd($screen-ss) {
+    font-size: $size * 2;
+    line-height: $size * 3;
+  }
+}
+.introduce p {
+  @include rwd($screen-lg) {
+    width: 100%;
+  }
+  @include rwd($screen-ss) {
+    font-size: $size * 1.25;
+    line-height: $size * 1.875;
+  }
+}
+.introduce a {
+  @include rwd($screen-sm){
+    margin: 0 auto;
+    padding: 13px 80px;
+    margin-top: 13px;
+    padding:14px 90px;
+    line-height: 34px;
+    font-size:28px;
+  }
+  @include rwd($screen-ss) {
+    padding:14px 70px;
+  }
+}
+.logo {
+  @include rwd($screen-ss) {
+    margin-left: 24px;
+  }
+}
+.product {
+  margin-top: 1080px;
+  border:1px solid red;
+  @include rwd($screen-xxl) {
+    margin-top: 640px;
+  }
+  @include rwd($screen-xl) {
+    margin-top: 540px;
+  }
+}
+
+.footer-list {
+  @include rwd($screen-lg) {
+    display: none;
+  }
+}
+
+.right {
+  @include rwd($screen-lg) {
+    white-space: nowrap;
+  }
+}
+
+.container,
+.content {
+  @include rwd($screen-lg) {
+    padding: 0px 15px;
+  }
+}
+
+.subscribe{
+  margin-top: 8%;
+  margin-left: 20%;
+  @include rwd($screen-xxl) {
+    margin-top: 12%;
+  }
+  @include rwd($screen-xl) {
+    margin-top: 18%;
+  }
+  @include rwd($screen-lg) {
+    margin-top: 12%;
+  }
+  @include rwd($screen-md) {
+    margin-top: 8%;
+  }
+  @include rwd($screen-sm) {
+    margin-top: 30%;
+    margin-left: 2%;
+  }
+}
+
+.product li{
+  @include rwd($screen-lg){
+    flex-wrap:wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+.product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  @include rwd($screen-lg) {
+    width: 100%;
+    margin:0 auto;
+    margin-top:8px;
+    .img-max{
+      width:100%;
+      height:100%;
+    }
+  }
+}
+
+.product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a{
+  @include rwd($screen-lg) {
+    margin-top:8px;
+  }
+}
+
+.product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section{
+  @include rwd($screen-lg) {
+    padding:0px;
+  }
+}
+
+.product .product-list-2, .product .product-list-3, .product .product-list-4{
+  @include rwd($screen-lg) {
+    margin-top: 32px;
+  }
+}
+
+.product-list-4 h3{
+  @include rwd($screen-lg){
+    line-height: 36px;
+  }
+}
+
+.product-list-4 p {
+  @include rwd($screen-lg){
+    line-height: 20px;
+  }
+}
+
+.button > a {
+  @include rwd($screen-md){
+    margin-top: 20px;
+    padding:18px 52px;
+    text-align:center;
+  }
+}
+
+.promotion {
+  @include rwd($screen-lg){
+    margin-top: 40px;
+  }
+}
+
+.promotion ul{
+  @include rwd($screen-lg){
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+}
+
+.promotion-list-1 , .promotion-list-2 , .promotion-list-3{
+  @include rwd($screen-lg){
+    width:100%;
+  }
+}
+
+.promotion section img{
+  @include rwd($screen-lg){
+    width:100%;
+    height:100%;
+  }
+}
+
+.price{
+  @include rwd($screen-lg){
+    margin-top: 4px;
+  }
+}
+
+.price p{
+  @include rwd($screen-lg){
+    line-height: 24px;
+  }
+}
+
+.environment{
+  @include rwd($screen-lg){
+    margin-top: 40px;
+    flex-wrap:wrap;
+  }
+}
+
+.environment div, .environment h3{
+  @include rwd($screen-lg){
+    width:100%;
+  }
+}
+
+.environment h3, .environment p, .environment a{
+  @include rwd($screen-lg){
+   margin-top: 8px;
+  }
+}
+
+.environment.content{
+  padding:0px;
+}
+

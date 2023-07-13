@@ -1,0 +1,327 @@
+// margin
+.margin- {
+  &auto {
+    margin: 0 auto;
+  }
+  &t {
+    &8 {
+      margin-top: $size/2;
+    }
+    &16 {
+      margin-top: $size;
+    }
+    &20 {
+      margin-top: $size * 1.25;
+    }
+    &40 {
+      margin-top: $size * 2.5;
+    }
+    &52 {
+      margin-top: $size * 3.25;
+    }
+    &60 {
+      margin-top: $size * 3.75;
+    }
+  }
+  &r {
+    &24 {
+      margin-right: $size * 1.5;
+    }
+  }
+  &l {
+    &20 {
+      margin-left: $size * 1.25;
+    }
+    &24 {
+      margin-left: $size * 1.5;
+    }
+  }
+  &b {
+    &22 {
+      margin-bottom: $size * 1.375;
+    }
+    &60 {
+      margin-bottom: $size * 3.75;
+    }
+  }
+}
+
+// padding
+.padding- {
+  &108 {
+    padding: $size * 6.75;
+  }
+  &110 {
+    padding: $size * 6.875;
+  }
+  &t {
+    &9 {
+      padding-top: $size * 0.5625;
+    }
+    &12 {
+      padding-top: $size * 0.75;
+    }
+    &16 {
+      padding-top: $size;
+    }
+    &18 {
+      padding-top: $size * 1.125;
+    }
+    &40 {
+      padding-top: $size * 2.5;
+    }
+    &110 {
+      padding-top: $size * 6.875;
+    }
+  }
+  &b {
+    &9 {
+      padding-bottom: $size * 0.5625;
+    }
+    &12 {
+      padding-bottom: $size * 0.75;
+    }
+    &16 {
+      padding-bottom: $size;
+    }
+    &18 {
+      padding-bottom: $size * 1.125;
+    }
+    &40 {
+      padding-bottom: $size * 2.5;
+    }
+    &110 {
+      padding-bottom: $size * 6.875;
+    }
+  }
+  &r {
+    &24 {
+      padding-right: $size * 1.5;
+    }
+    &52 {
+      padding-right: $size * 3.25;
+    }
+    &108 {
+      padding-right: $size * 6.75;
+    }
+  }
+  &l {
+    &24 {
+      padding-left: $size * 1.5;
+    }
+    &52 {
+      padding-left: $size * 3.25;
+    }
+    &108 {
+      padding-left: $size * 6.75;
+    }
+  }
+}
+
+// gap
+.gap- {
+  &0 {
+    gap: 0;
+  }
+  &10 {
+    gap: $size * 0.625;
+  }
+  &30 {
+    gap: $size * 1.875;
+  }
+}
+
+// line-height
+.line-h {
+  &24 {
+    line-height: $size * 1.5;
+  }
+  &30 {
+    line-height: $size * 1.875;
+  }
+  &36 {
+    line-height: $size * 2.25;
+  }
+  &48 {
+    line-height: $size * 3;
+  }
+  &60 {
+    line-height: $size * 3.75;
+  }
+}
+
+// border
+.border-radius- {
+  &white {
+    border-radius: 1.875 * $size;
+    border: 2px solid $color-white;
+  }
+  &black {
+    border-radius: 1.875 * $size;
+    border: 2px solid $color-black;
+  }
+  &subscribe {
+    border-radius: 0px 0.25 * $size 0.25 * $size 0px;
+  }
+}
+
+// font-size
+.font- {
+  &primary {
+    font-size: $size;
+  }
+  &14 {
+    font-size: $size - 2px;
+  }
+  &20 {
+    font-size: $size * 1.25;
+  }
+  &24 {
+    font-size: $size * 1.5;
+  }
+  &28 {
+    font-size: $size * 1.75;
+  }
+  &32 {
+    font-size: $size * 2;
+  }
+  &40 {
+    font-size: $size * 2.5;
+  }
+}
+
+// color
+.color- {
+  &primary {
+    color: $color-black;
+  }
+  &brown {
+    color: $color-brown;
+  }
+  &lightBrown {
+    color: $color-lightBrown;
+  }
+  &gray {
+    color: $color-gray;
+  }
+  &lightGray {
+    color: $color-lightGray;
+  }
+  &white {
+    color: $color-white;
+  }
+}
+
+.bg-color- {
+  &white {
+    background-color: $color-white;
+  }
+  &lightGray{
+    background-color: $color-lightGray;
+  }
+  &brown{
+    background-color: $color-brown;
+  }
+}
+
+// width
+.width- {
+  &30 {
+    width: $space * 30;
+  }
+  &32 {
+    width: $space * 32;
+  }
+  &33 {
+    width: $space * 33;
+  }
+  &40 {
+    width: $space * 40;
+  }
+  &45 {
+    width: $space * 45;
+  }
+  &50 {
+    width: $space * 50;
+  }
+  &60 {
+    width: $space * 60;
+  }
+  &68 {
+    width: $space * 68;
+  }
+  &70 {
+    width: $space * 70;
+  }
+  &100 {
+    width: $space * 100;
+  }
+}
+
+// height
+.height- {
+  &20 {
+    height: $space * 20;
+  }
+  &50 {
+    height: $space * 50;
+  }
+  &100 {
+    height: $space * 100;
+  }
+}
+
+// hidden H1
+.hiddenH1 {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// position
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.border{
+  border:1px solid red;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 0; 
+  padding-bottom: 100%; 
+}
+.img-max{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 555px;
+  height: 555px;
+  object-fit:cover;
+}
+
+.img-promotion{
+  position: absolute;
+  top: 0;
+  left: 0;
+  // width: 350px;
+  // height: 540px;
+  object-fit:cover;
+}
+
+input{
+  width:350px;
+}
+
+.nav-bottom{
+  position:absolute;
+  bottom:0px;
+  width:100%;
+}

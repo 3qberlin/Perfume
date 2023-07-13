@@ -1,0 +1,43 @@
+// google font
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+// google icon
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: $size * 1.5;
+  background-image: url("../imgs/banner.jpg");
+  background-repeat: no-repeat;
+  width:100%;
+  height:600px;
+  
+}
+.font- {
+  &weight- {
+    &700 {
+      font-weight: 700;
+    }
+  }
+  &light{
+    font-weight: lighter;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer{
+  background-image: url(https://images.unsplash.com/photo-1598634222670-87c5f558119c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.8;
+  width:100%;
+  height:600px;
+}
