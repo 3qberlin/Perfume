@@ -488,7 +488,7 @@ button {
   top: -4px;
   left: 12px;
   color: #FFFFFF;
-  font-size: 8px;
+  font-size: 10px;
   text-align: center;
 }
 
@@ -868,32 +868,32 @@ button {
 }
 @media (max-width: 375px) {
   .introduce a {
-    padding: 14px 70px;
+    padding: 14px 108px;
   }
 }
 @media (max-width: 1200px) {
   .introduce a {
-    padding: 14px 70px;
+    padding: 14px 108px;
   }
 }
 @media (max-width: 992px) {
   .introduce a {
-    padding: 14px 70px;
+    padding: 14px 108px;
   }
 }
 @media (max-width: 768px) {
   .introduce a {
-    padding: 14px 70px;
+    padding: 14px 108px;
   }
 }
 @media (max-width: 576px) {
   .introduce a {
-    padding: 14px 70px;
+    padding: 14px 108px;
   }
 }
 @media (max-width: 375px) {
   .introduce a {
-    padding: 14px 70px;
+    padding: 14px 108px;
   }
 }
 
