@@ -145,6 +145,12 @@
   }
 }
 
+.subscribe button{
+  @include rwd($screen-ss){
+    margin-top:1px;
+  }
+}
+
 input{
   @include rwd($screen-sm){
     width:200px;

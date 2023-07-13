@@ -434,7 +434,7 @@ input {
 
 button {
   width: 35%;
-  height: 66px;
+  height: 62px;
   background-color: #916000;
   display: inline-block;
   border: 2px solid #916019;
@@ -1092,6 +1092,37 @@ button {
 @media (max-width: 375px) {
   .subscribe {
     padding: 30% 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .subscribe button {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 1200px) {
+  .subscribe button {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 992px) {
+  .subscribe button {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .subscribe button {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 576px) {
+  .subscribe button {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 375px) {
+  .subscribe button {
+    margin-top: 1px;
   }
 }
 
