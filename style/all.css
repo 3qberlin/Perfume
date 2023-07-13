@@ -515,14 +515,7 @@ button {
   font-size: 16px;
 }
 
-.soldOut {
-  background-color: #8D8D8D;
-  -o-object-fit: contain;
-     object-fit: contain;
-  z-index: 990;
-}
-
-.promotion-list-3 div::before {
+.promotion-list-3 .soldOut::before {
   content: "SoldOut";
   position: absolute;
   top: 0;

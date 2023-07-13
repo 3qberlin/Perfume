@@ -75,14 +75,14 @@
   font-size:16px;
 }
 
-.soldOut{
-  // width: 100%;
-  // height: 100%;
-  background-color: $color-gray;
-  object-fit: contain;
-  z-index: 990;
-  // position: absolute;
-}
+// .soldOut{
+//   // width: 100%;
+//   // height: 100%;
+//   background-color: $color-gray;
+//   object-fit: contain;
+//   z-index: 990;
+//   // position: absolute;
+// }
 // .promotion-list-3 span::after{
 //   content:'Sold Out';
 //   color:$color-white;
@@ -101,7 +101,7 @@
 //   border:2px solid red;
 // }
 
-.promotion-list-3 div::before {
+.promotion-list-3 .soldOut::before {
   content: 'SoldOut';
   position: absolute;
   top: 0;
