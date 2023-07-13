@@ -481,8 +481,8 @@ input {
 .email::after {
   content: "Subscribe";
   position: absolute;
-  width: 136px;
-  height: 66px;
+  width: 142px;
+  height: 68px;
   background-color: #916019;
   border-radius: 2px;
   top: 21px;
