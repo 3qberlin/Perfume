@@ -18,16 +18,16 @@
   &button- {
     &white:hover {
       border: $color-white 2px solid;
-      color:$color-white;
+      color: $color-white;
     }
     &brown:hover {
       border: $color-brown 1px solid;
       background-color: $color-brown;
     }
-    &product:hover{
+    &product:hover {
       border: $color-brown 2px solid;
       background-color: $color-brown;
-      color:$color-white
+      color: $color-white;
     }
   }
 }
@@ -38,71 +38,30 @@
 }
 
 // menu-mb
-.number::after{
-  content:'3';
-  position:absolute;
-  width:14px;
-  height:14px;
+.number::after {
+  content: "3";
+  position: absolute;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background-color: $color-brown;
-  top:-4px;
-  left:12px;
-  color:$color-white;
+  top: -4px;
+  left: 12px;
+  color: $color-white;
   font-size: 10px;
-  text-align:center;
+  text-align: center;
 }
 
-.price span::after{
-  content:'NT$1580';
-  color:$color-gray;
-  text-decoration:line-through;
-  position:absolute;
-  left:76px;
-}
-
-.email::after{
-  content:'Subscribe';
+.pricePlus span::after {
+  content: "NT$1580";
+  color: $color-gray;
+  text-decoration: line-through;
   position: absolute;
-  width: 142px;
-  height:68px;
-  background-color: $color-brown;
-  border-radius: 2px;
-  top:21px;
-  left:228px;
-  color:$color-white;
-  text-align:center;
-  line-height: 62px;
-  font-size:16px;
+  left: 76px;
 }
-
-// .soldOut{
-//   // width: 100%;
-//   // height: 100%;
-//   background-color: $color-gray;
-//   object-fit: contain;
-//   z-index: 990;
-//   // position: absolute;
-// }
-// .promotion-list-3 span::after{
-//   content:'Sold Out';
-//   color:$color-white;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 300px; /* 使用百分比指定寬度 */
-//   height: 400px; 
-//   background-color: $color-gray;
-//   opacity: 0.7;
-//   display:flex;
-//   justify-content: center;
-//   align-items:center;
-//   font-size: 24px;
-//   line-height: 36px;
-//   border:2px solid red;
-// }
 
 .promotion-list-3 .soldOut::before {
-  content: 'SoldOut';
+  content: "SoldOut";
   position: absolute;
   top: 0;
   left: 0;
@@ -113,8 +72,12 @@
   background-color: black;
   opacity: 0.7;
   z-index: 1;
-  color:$color-white;
-  display:flex;
+  color: $color-white;
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+}
+
+.saleProduct p a:hover {
+  color: $color-gray;
 }
