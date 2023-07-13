@@ -151,13 +151,6 @@ input{
   }
 }
 
-button{
-  @include rwd($screen-md){
-    width:100px;
-    height:auto;
-    margin-top: 22px;
-  }
-}
 
 
 .product li {
