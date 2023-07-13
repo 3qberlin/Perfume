@@ -569,235 +569,181 @@ input {
 
 .introduce {
   left: 60%;
-  top: 25vh;
-  width: 22%;
+  top: 300px;
+  width: 25%;
 }
 @media (max-width: 1550px) {
   .introduce {
-    left: auto;
-    top: 0vh;
-    margin: 20% 20%;
-    padding: 0% 20%;
-    width: auto;
+    left: 50%;
+    width: 33%;
   }
 }
 @media (max-width: 1200px) {
   .introduce {
-    left: auto;
-    top: 0vh;
-    margin: 20% 20%;
-    padding: 0% 20%;
-    width: auto;
+    left: 50%;
+    width: 33%;
   }
 }
 @media (max-width: 992px) {
   .introduce {
-    left: auto;
-    top: 0vh;
-    margin: 20% 20%;
-    padding: 0% 20%;
-    width: auto;
+    left: 50%;
+    width: 33%;
   }
 }
 @media (max-width: 768px) {
   .introduce {
-    left: auto;
-    top: 0vh;
-    margin: 20% 20%;
-    padding: 0% 20%;
-    width: auto;
+    left: 50%;
+    width: 33%;
   }
 }
 @media (max-width: 576px) {
   .introduce {
-    left: auto;
-    top: 0vh;
-    margin: 20% 20%;
-    padding: 0% 20%;
-    width: auto;
+    left: 50%;
+    width: 33%;
   }
 }
 @media (max-width: 375px) {
   .introduce {
-    left: auto;
-    top: 0vh;
-    margin: 20% 20%;
-    padding: 0% 20%;
-    width: auto;
+    left: 50%;
+    width: 33%;
   }
 }
 @media (max-width: 1200px) {
   .introduce {
-    margin: 12% 20%;
-    padding: 0% 20%;
+    left: 40%;
+    width: 56%;
   }
 }
 @media (max-width: 1200px) {
   .introduce {
-    margin: 12% 20%;
-    padding: 0% 20%;
+    left: 40%;
+    width: 56%;
   }
 }
 @media (max-width: 992px) {
   .introduce {
-    margin: 12% 20%;
-    padding: 0% 20%;
+    left: 40%;
+    width: 56%;
   }
 }
 @media (max-width: 768px) {
   .introduce {
-    margin: 12% 20%;
-    padding: 0% 20%;
+    left: 40%;
+    width: 56%;
   }
 }
 @media (max-width: 576px) {
   .introduce {
-    margin: 12% 20%;
-    padding: 0% 20%;
+    left: 40%;
+    width: 56%;
   }
 }
 @media (max-width: 375px) {
   .introduce {
-    margin: 12% 20%;
-    padding: 0% 20%;
+    left: 40%;
+    width: 56%;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .introduce {
-    padding: 0% 10% 0% 0%;
+    left: 0%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 @media (max-width: 1200px) {
   .introduce {
-    padding: 0% 10% 0% 0%;
+    left: 0%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 @media (max-width: 992px) {
   .introduce {
-    padding: 0% 10% 0% 0%;
+    left: 0%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 @media (max-width: 768px) {
   .introduce {
-    padding: 0% 10% 0% 0%;
+    left: 0%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 @media (max-width: 576px) {
   .introduce {
-    padding: 0% 10% 0% 0%;
+    left: 0%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 @media (max-width: 375px) {
   .introduce {
-    padding: 0% 10% 0% 0%;
+    left: 0%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .introduce {
-    padding: 0% 3%;
-    margin: 10% 9%;
+    width: 90%;
   }
 }
 @media (max-width: 1200px) {
   .introduce {
-    padding: 0% 3%;
-    margin: 10% 9%;
+    width: 90%;
   }
 }
 @media (max-width: 992px) {
   .introduce {
-    padding: 0% 3%;
-    margin: 10% 9%;
+    width: 90%;
   }
 }
 @media (max-width: 768px) {
   .introduce {
-    padding: 0% 3%;
-    margin: 10% 9%;
+    width: 90%;
   }
 }
 @media (max-width: 576px) {
   .introduce {
-    padding: 0% 3%;
-    margin: 10% 9%;
+    width: 90%;
   }
 }
 @media (max-width: 375px) {
   .introduce {
-    padding: 0% 3%;
-    margin: 10% 9%;
+    width: 90%;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 375px) {
   .introduce {
-    padding: 0% 10%;
-    margin: 15% 8%;
+    width: 100%;
   }
 }
 @media (max-width: 1200px) {
   .introduce {
-    padding: 0% 10%;
-    margin: 15% 8%;
+    width: 100%;
   }
 }
 @media (max-width: 992px) {
   .introduce {
-    padding: 0% 10%;
-    margin: 15% 8%;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
   .introduce {
-    padding: 0% 10%;
-    margin: 15% 8%;
+    width: 100%;
   }
 }
 @media (max-width: 576px) {
   .introduce {
-    padding: 0% 10%;
-    margin: 15% 8%;
+    width: 100%;
   }
 }
 @media (max-width: 375px) {
   .introduce {
-    padding: 0% 10%;
-    margin: 15% 8%;
-  }
-}
-@media (max-width: 375px) {
-  .introduce {
-    padding: 0% 0%;
-    margin: 32vh 15px;
-  }
-}
-@media (max-width: 1200px) {
-  .introduce {
-    padding: 0% 0%;
-    margin: 32vh 15px;
-  }
-}
-@media (max-width: 992px) {
-  .introduce {
-    padding: 0% 0%;
-    margin: 32vh 15px;
-  }
-}
-@media (max-width: 768px) {
-  .introduce {
-    padding: 0% 0%;
-    margin: 32vh 15px;
-  }
-}
-@media (max-width: 576px) {
-  .introduce {
-    padding: 0% 0%;
-    margin: 32vh 15px;
-  }
-}
-@media (max-width: 375px) {
-  .introduce {
-    padding: 0% 0%;
-    margin: 32vh 15px;
+    width: 100%;
   }
 }
 
@@ -835,73 +781,6 @@ input {
   .introduce h2 {
     font-size: 32px;
     line-height: 48px;
-  }
-}
-
-@media (max-width: 992px) {
-  .introduce p {
-    width: 100%;
-  }
-}
-@media (max-width: 1200px) {
-  .introduce p {
-    width: 100%;
-  }
-}
-@media (max-width: 992px) {
-  .introduce p {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .introduce p {
-    width: 100%;
-  }
-}
-@media (max-width: 576px) {
-  .introduce p {
-    width: 100%;
-  }
-}
-@media (max-width: 375px) {
-  .introduce p {
-    width: 100%;
-  }
-}
-@media (max-width: 375px) {
-  .introduce p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media (max-width: 1200px) {
-  .introduce p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media (max-width: 992px) {
-  .introduce p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .introduce p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media (max-width: 576px) {
-  .introduce p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media (max-width: 375px) {
-  .introduce p {
-    font-size: 20px;
-    line-height: 30px;
   }
 }
 
@@ -1028,73 +907,7 @@ input {
 }
 
 .product {
-  margin-top: 1080px;
-}
-@media (max-width: 1550px) {
-  .product {
-    margin-top: 900px;
-    border: 1px solid red;
-  }
-}
-@media (max-width: 1200px) {
-  .product {
-    margin-top: 900px;
-    border: 1px solid red;
-  }
-}
-@media (max-width: 992px) {
-  .product {
-    margin-top: 900px;
-    border: 1px solid red;
-  }
-}
-@media (max-width: 768px) {
-  .product {
-    margin-top: 900px;
-    border: 1px solid red;
-  }
-}
-@media (max-width: 576px) {
-  .product {
-    margin-top: 900px;
-    border: 1px solid red;
-  }
-}
-@media (max-width: 375px) {
-  .product {
-    margin-top: 900px;
-    border: 1px solid red;
-  }
-}
-@media (max-width: 1200px) {
-  .product {
-    margin-top: 780px;
-  }
-}
-@media (max-width: 1200px) {
-  .product {
-    margin-top: 780px;
-  }
-}
-@media (max-width: 992px) {
-  .product {
-    margin-top: 780px;
-  }
-}
-@media (max-width: 768px) {
-  .product {
-    margin-top: 780px;
-  }
-}
-@media (max-width: 576px) {
-  .product {
-    margin-top: 780px;
-  }
-}
-@media (max-width: 375px) {
-  .product {
-    margin-top: 780px;
-  }
+  margin-top: 1085px;
 }
 
 @media (max-width: 992px) {
@@ -1395,161 +1208,239 @@ input {
 }
 
 @media (max-width: 992px) {
-  .product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  .product .product-list-1 div,
+  .product .product-list-2 div,
+  .product .product-list-3 div,
+  .product .product-list-4 div {
     width: 100%;
     margin: 0 auto;
     margin-top: 8px;
   }
-  .product .product-list-1 div .img-max, .product .product-list-2 div .img-max, .product .product-list-3 div .img-max, .product .product-list-4 div .img-max {
+  .product .product-list-1 div .img-max,
+  .product .product-list-2 div .img-max,
+  .product .product-list-3 div .img-max,
+  .product .product-list-4 div .img-max {
     width: 100%;
     height: 100%;
   }
 }
 @media (max-width: 1200px) {
-  .product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  .product .product-list-1 div,
+  .product .product-list-2 div,
+  .product .product-list-3 div,
+  .product .product-list-4 div {
     width: 100%;
     margin: 0 auto;
     margin-top: 8px;
   }
-  .product .product-list-1 div .img-max, .product .product-list-2 div .img-max, .product .product-list-3 div .img-max, .product .product-list-4 div .img-max {
+  .product .product-list-1 div .img-max,
+  .product .product-list-2 div .img-max,
+  .product .product-list-3 div .img-max,
+  .product .product-list-4 div .img-max {
     width: 100%;
     height: 100%;
   }
 }
 @media (max-width: 992px) {
-  .product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  .product .product-list-1 div,
+  .product .product-list-2 div,
+  .product .product-list-3 div,
+  .product .product-list-4 div {
     width: 100%;
     margin: 0 auto;
     margin-top: 8px;
   }
-  .product .product-list-1 div .img-max, .product .product-list-2 div .img-max, .product .product-list-3 div .img-max, .product .product-list-4 div .img-max {
+  .product .product-list-1 div .img-max,
+  .product .product-list-2 div .img-max,
+  .product .product-list-3 div .img-max,
+  .product .product-list-4 div .img-max {
     width: 100%;
     height: 100%;
   }
 }
 @media (max-width: 768px) {
-  .product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  .product .product-list-1 div,
+  .product .product-list-2 div,
+  .product .product-list-3 div,
+  .product .product-list-4 div {
     width: 100%;
     margin: 0 auto;
     margin-top: 8px;
   }
-  .product .product-list-1 div .img-max, .product .product-list-2 div .img-max, .product .product-list-3 div .img-max, .product .product-list-4 div .img-max {
+  .product .product-list-1 div .img-max,
+  .product .product-list-2 div .img-max,
+  .product .product-list-3 div .img-max,
+  .product .product-list-4 div .img-max {
     width: 100%;
     height: 100%;
   }
 }
 @media (max-width: 576px) {
-  .product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  .product .product-list-1 div,
+  .product .product-list-2 div,
+  .product .product-list-3 div,
+  .product .product-list-4 div {
     width: 100%;
     margin: 0 auto;
     margin-top: 8px;
   }
-  .product .product-list-1 div .img-max, .product .product-list-2 div .img-max, .product .product-list-3 div .img-max, .product .product-list-4 div .img-max {
+  .product .product-list-1 div .img-max,
+  .product .product-list-2 div .img-max,
+  .product .product-list-3 div .img-max,
+  .product .product-list-4 div .img-max {
     width: 100%;
     height: 100%;
   }
 }
 @media (max-width: 375px) {
-  .product .product-list-1 div, .product .product-list-2 div, .product .product-list-3 div, .product .product-list-4 div {
+  .product .product-list-1 div,
+  .product .product-list-2 div,
+  .product .product-list-3 div,
+  .product .product-list-4 div {
     width: 100%;
     margin: 0 auto;
     margin-top: 8px;
   }
-  .product .product-list-1 div .img-max, .product .product-list-2 div .img-max, .product .product-list-3 div .img-max, .product .product-list-4 div .img-max {
+  .product .product-list-1 div .img-max,
+  .product .product-list-2 div .img-max,
+  .product .product-list-3 div .img-max,
+  .product .product-list-4 div .img-max {
     width: 100%;
     height: 100%;
   }
 }
 
 @media (max-width: 992px) {
-  .product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a {
+  .product .product-list-1 div a,
+  .product .product-list-2 div a,
+  .product .product-list-3 div a {
     margin-top: 8px;
   }
 }
 @media (max-width: 1200px) {
-  .product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a {
+  .product .product-list-1 div a,
+  .product .product-list-2 div a,
+  .product .product-list-3 div a {
     margin-top: 8px;
   }
 }
 @media (max-width: 992px) {
-  .product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a {
+  .product .product-list-1 div a,
+  .product .product-list-2 div a,
+  .product .product-list-3 div a {
     margin-top: 8px;
   }
 }
 @media (max-width: 768px) {
-  .product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a {
+  .product .product-list-1 div a,
+  .product .product-list-2 div a,
+  .product .product-list-3 div a {
     margin-top: 8px;
   }
 }
 @media (max-width: 576px) {
-  .product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a {
+  .product .product-list-1 div a,
+  .product .product-list-2 div a,
+  .product .product-list-3 div a {
     margin-top: 8px;
   }
 }
 @media (max-width: 375px) {
-  .product .product-list-1 div a, .product .product-list-2 div a, .product .product-list-3 div a {
+  .product .product-list-1 div a,
+  .product .product-list-2 div a,
+  .product .product-list-3 div a {
     margin-top: 8px;
   }
 }
 
 @media (max-width: 992px) {
-  .product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section {
+  .product .product-list-1 section,
+  .product .product-list-2 section,
+  .product .product-list-3 section,
+  .product .product-list-4 section {
     padding: 0px;
   }
 }
 @media (max-width: 1200px) {
-  .product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section {
+  .product .product-list-1 section,
+  .product .product-list-2 section,
+  .product .product-list-3 section,
+  .product .product-list-4 section {
     padding: 0px;
   }
 }
 @media (max-width: 992px) {
-  .product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section {
+  .product .product-list-1 section,
+  .product .product-list-2 section,
+  .product .product-list-3 section,
+  .product .product-list-4 section {
     padding: 0px;
   }
 }
 @media (max-width: 768px) {
-  .product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section {
+  .product .product-list-1 section,
+  .product .product-list-2 section,
+  .product .product-list-3 section,
+  .product .product-list-4 section {
     padding: 0px;
   }
 }
 @media (max-width: 576px) {
-  .product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section {
+  .product .product-list-1 section,
+  .product .product-list-2 section,
+  .product .product-list-3 section,
+  .product .product-list-4 section {
     padding: 0px;
   }
 }
 @media (max-width: 375px) {
-  .product .product-list-1 section, .product .product-list-2 section, .product .product-list-3 section, .product .product-list-4 section {
+  .product .product-list-1 section,
+  .product .product-list-2 section,
+  .product .product-list-3 section,
+  .product .product-list-4 section {
     padding: 0px;
   }
 }
 
 @media (max-width: 992px) {
-  .product .product-list-2, .product .product-list-3, .product .product-list-4 {
+  .product .product-list-2,
+  .product .product-list-3,
+  .product .product-list-4 {
     margin-top: 32px;
   }
 }
 @media (max-width: 1200px) {
-  .product .product-list-2, .product .product-list-3, .product .product-list-4 {
+  .product .product-list-2,
+  .product .product-list-3,
+  .product .product-list-4 {
     margin-top: 32px;
   }
 }
 @media (max-width: 992px) {
-  .product .product-list-2, .product .product-list-3, .product .product-list-4 {
+  .product .product-list-2,
+  .product .product-list-3,
+  .product .product-list-4 {
     margin-top: 32px;
   }
 }
 @media (max-width: 768px) {
-  .product .product-list-2, .product .product-list-3, .product .product-list-4 {
+  .product .product-list-2,
+  .product .product-list-3,
+  .product .product-list-4 {
     margin-top: 32px;
   }
 }
 @media (max-width: 576px) {
-  .product .product-list-2, .product .product-list-3, .product .product-list-4 {
+  .product .product-list-2,
+  .product .product-list-3,
+  .product .product-list-4 {
     margin-top: 32px;
   }
 }
 @media (max-width: 375px) {
-  .product .product-list-2, .product .product-list-3, .product .product-list-4 {
+  .product .product-list-2,
+  .product .product-list-3,
+  .product .product-list-4 {
     margin-top: 32px;
   }
 }
@@ -1728,32 +1619,44 @@ input {
 }
 
 @media (max-width: 992px) {
-  .promotion-list-1, .promotion-list-2, .promotion-list-3 {
+  .promotion-list-1,
+  .promotion-list-2,
+  .promotion-list-3 {
     width: 100%;
   }
 }
 @media (max-width: 1200px) {
-  .promotion-list-1, .promotion-list-2, .promotion-list-3 {
+  .promotion-list-1,
+  .promotion-list-2,
+  .promotion-list-3 {
     width: 100%;
   }
 }
 @media (max-width: 992px) {
-  .promotion-list-1, .promotion-list-2, .promotion-list-3 {
+  .promotion-list-1,
+  .promotion-list-2,
+  .promotion-list-3 {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  .promotion-list-1, .promotion-list-2, .promotion-list-3 {
+  .promotion-list-1,
+  .promotion-list-2,
+  .promotion-list-3 {
     width: 100%;
   }
 }
 @media (max-width: 576px) {
-  .promotion-list-1, .promotion-list-2, .promotion-list-3 {
+  .promotion-list-1,
+  .promotion-list-2,
+  .promotion-list-3 {
     width: 100%;
   }
 }
 @media (max-width: 375px) {
-  .promotion-list-1, .promotion-list-2, .promotion-list-3 {
+  .promotion-list-1,
+  .promotion-list-2,
+  .promotion-list-3 {
     width: 100%;
   }
 }
@@ -1895,63 +1798,81 @@ input {
 }
 
 @media (max-width: 992px) {
-  .environment div, .environment h3 {
+  .environment div,
+  .environment h3 {
     width: 100%;
   }
 }
 @media (max-width: 1200px) {
-  .environment div, .environment h3 {
+  .environment div,
+  .environment h3 {
     width: 100%;
   }
 }
 @media (max-width: 992px) {
-  .environment div, .environment h3 {
+  .environment div,
+  .environment h3 {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  .environment div, .environment h3 {
+  .environment div,
+  .environment h3 {
     width: 100%;
   }
 }
 @media (max-width: 576px) {
-  .environment div, .environment h3 {
+  .environment div,
+  .environment h3 {
     width: 100%;
   }
 }
 @media (max-width: 375px) {
-  .environment div, .environment h3 {
+  .environment div,
+  .environment h3 {
     width: 100%;
   }
 }
 
 @media (max-width: 992px) {
-  .environment h3, .environment p, .environment a {
+  .environment h3,
+  .environment p,
+  .environment a {
     margin-top: 8px;
   }
 }
 @media (max-width: 1200px) {
-  .environment h3, .environment p, .environment a {
+  .environment h3,
+  .environment p,
+  .environment a {
     margin-top: 8px;
   }
 }
 @media (max-width: 992px) {
-  .environment h3, .environment p, .environment a {
+  .environment h3,
+  .environment p,
+  .environment a {
     margin-top: 8px;
   }
 }
 @media (max-width: 768px) {
-  .environment h3, .environment p, .environment a {
+  .environment h3,
+  .environment p,
+  .environment a {
     margin-top: 8px;
   }
 }
 @media (max-width: 576px) {
-  .environment h3, .environment p, .environment a {
+  .environment h3,
+  .environment p,
+  .environment a {
     margin-top: 8px;
   }
 }
 @media (max-width: 375px) {
-  .environment h3, .environment p, .environment a {
+  .environment h3,
+  .environment p,
+  .environment a {
     margin-top: 8px;
   }
 }
