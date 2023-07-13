@@ -1123,7 +1123,7 @@ button {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   button {
     width: 100px;
     margin-top: 21px;
