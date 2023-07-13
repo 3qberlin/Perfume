@@ -559,6 +559,10 @@ button {
   color: #8D8D8D;
 }
 
+.submit {
+  cursor: pointer;
+}
+
 .menu-mb {
   display: none;
 }
