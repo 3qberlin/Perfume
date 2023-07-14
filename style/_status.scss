@@ -94,3 +94,11 @@
   color:$color-brown;
   border-bottom: 1px solid $color-lightBrown;
 }
+
+.saleProduct img {
+  transition: transform .6s;
+}
+
+.saleProduct img:hover {
+  transform: scale(1.05);
+}

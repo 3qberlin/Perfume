@@ -575,6 +575,14 @@ button {
   border-bottom: 1px solid #AC8A46;
 }
 
+.saleProduct img {
+  transition: transform 0.6s;
+}
+
+.saleProduct img:hover {
+  transform: scale(1.05);
+}
+
 .menu-mb {
   display: none;
 }
