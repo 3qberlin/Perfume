@@ -30,6 +30,9 @@
     }
   }
   &r {
+    &2{
+      margin-right: 2px;
+    }
     &8 {
       margin-right: $size * .5;
     }
@@ -44,6 +47,7 @@
     }
   }
   &l {
+    
     &20 {
       margin-left: $size * 1.25;
     }

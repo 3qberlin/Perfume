@@ -85,3 +85,12 @@
 .submit{
   cursor: pointer;
 }
+
+.product a:hover, .environment a:hover, .nav-bottom a:hover, .category a:hover{
+  color:$color-black;
+}
+
+.saleProduct-page a:hover{
+  color:$color-brown;
+  border-bottom: 1px solid $color-lightBrown;
+}

@@ -180,6 +180,9 @@ footer {
 .margin-t80 {
   margin-top: 80px;
 }
+.margin-r2 {
+  margin-right: 2px;
+}
 .margin-r8 {
   margin-right: 8px;
 }
@@ -561,6 +564,15 @@ button {
 
 .submit {
   cursor: pointer;
+}
+
+.product a:hover, .environment a:hover, .nav-bottom a:hover, .category a:hover {
+  color: #000000;
+}
+
+.saleProduct-page a:hover {
+  color: #916019;
+  border-bottom: 1px solid #AC8A46;
 }
 
 .menu-mb {
